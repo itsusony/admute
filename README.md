@@ -46,6 +46,8 @@ you can:
 # bin/client
 ```
 
+  * You can read the sample source in `client.c`, it is necessary to send a `SOCKET_OBJ` memory instance to socket, a little hard to use like this, or you can send a string command on port 5001, see next step.
+
 3. or echo string by netcat
 ```
 echo "set USERID ADID" | nc 127.0.0.1 5001
